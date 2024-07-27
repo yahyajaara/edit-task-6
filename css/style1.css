@@ -10,6 +10,12 @@ body
     margin: 0;
 }
 
+a
+{
+    text-decoration-line:none;
+    font-size: 20px;
+}
+
 .head-title 
 {
     background-color: rgb(179, 167, 122);
@@ -27,6 +33,7 @@ h2
     padding: 15px;
     border-top: solid;
     margin-top: 5%;
+    text-transform: capitalize;
     
 }
 
@@ -39,6 +46,12 @@ h3
     margin-left: 3%;
     margin-top: 2%;
     padding: 10px;
+    text-transform: capitalize;
+}
+
+h4
+{
+    text-transform: capitalize;
 }
 
 .head-icon , .foot-site
@@ -213,9 +226,9 @@ ul
 
 .cart
 {
-    
     margin-bottom: 2%;
     margin-left: 28%;
+    
 }
 
 button
